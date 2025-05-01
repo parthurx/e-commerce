@@ -25,9 +25,31 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+# Arquivo .env
+.env
+
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Diretórios de compilação
+/out/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Dependências baixadas pelo Maven ou Gradle
+/.mvn/
+/.gradle/
+/build/
